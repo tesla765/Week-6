@@ -1,0 +1,32 @@
+Testing Object Replication in Blob Storage
+Navigate to Storage Account: Go to your Azure Portal and select your storage account.
+
+Set up Replication: Under "Data protection," select "Blob replication" and configure replication rules (e.g., between regions or storage accounts).
+
+Monitor Replication: Upload a blob to the source container and verify its replication to the destination container based on configured rules.
+
+Creating a File Share
+Navigate to Storage Account: In the Azure Portal, go to your storage account.
+
+Create File Share: Under "File service," select "File shares" and click "Add File Share."
+
+Name and Quota: Provide a name for the file share and set a quota if needed.
+
+Access Control: Set permissions (e.g., SMB or NFS) and access level (private or public).
+
+Create: Click "Create" to create the file share.
+
+Setting Up Azure File Sync
+Install Azure File Sync: Download and install the Azure File Sync agent on your Windows Server from Microsoft's official page.
+
+Register Server: Launch the Azure File Sync agent and register your server with Azure.
+
+Create Sync Group: In the Azure Portal, navigate to your storage account and select "Azure File Sync."
+
+Add New Sync Group: Click "Add new sync group," provide a name, and select the storage account and file share to sync.
+
+Connect Server: Follow the wizard to connect your registered server and configure sync settings (e.g., cloud endpoint, sync frequency).
+
+Sync Files: After setup, files in the local file share will sync with the Azure File share, enabling centralized file access and cloud backup.
+
+Monitor Sync: Monitor sync progress and conflicts through the Azure File Sync portal.

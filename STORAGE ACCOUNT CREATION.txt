@@ -1,0 +1,47 @@
+Step 1: Sign in to Azure Portal
+Go to the Azure Portal.
+Sign in with your Azure account.
+Step 2: Create a Storage Account
+Navigate to Storage Accounts:
+
+In the left-hand menu, select "Storage accounts."
+Click on "Create" to start the process.
+Basics Tab:
+
+Subscription: Choose the Azure subscription you want to use.
+Resource Group: Select an existing resource group or create a new one.
+Storage Account Name: Provide a unique name for your storage account. This name must be between 3 and 24 characters in length and can contain only lowercase letters and numbers.
+Region: Choose the Azure region where you want your storage account to be located.
+Performance: Select between "Standard" and "Premium" performance tiers.
+Redundancy: Choose a redundancy option (LRS, ZRS, GRS, RA-GRS, GZRS, RA-GZRS).
+Advanced Tab:
+
+Minimum TLS Version: Set the minimum TLS version for incoming requests (TLS 1.0, 1.1, or 1.2).
+Blob Soft Delete: Enable or disable soft delete for blobs.
+Data Lake Storage Gen2: Enable hierarchical namespace if needed for Data Lake Storage Gen2.
+Security: Options for enabling Azure AD integration, network routing, and more.
+Networking Tab:
+
+Connectivity Method: Choose between "Public endpoint (all networks)," "Public endpoint (selected networks)," and "Private endpoint."
+Virtual Network: Configure access through a virtual network.
+Firewall: Set up firewall rules to restrict access to the storage account.
+Data Protection Tab:
+
+Recovery: Options to enable blob soft delete, container soft delete, and versioning.
+Tracking: Enable change feed and last access tracking.
+Blob Inventory: Enable blob inventory reports.
+Tags Tab:
+
+Add tags to organize your resources (key-value pairs).
+Review + Create Tab:
+
+Review all the configurations.
+Click on "Create" to deploy the storage account.
+Step 3: Explore Storage Account Options
+Once the storage account is created, you can explore various features:
+
+Blobs: Store unstructured data such as text or binary data.
+Files: Fully managed file shares in the cloud.
+Queues: Store and retrieve messages.
+Tables: Store structured NoSQL data.
+Data Management: Configure lifecycle management, metrics, alerts, and diagnostics.
